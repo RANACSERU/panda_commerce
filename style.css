@@ -1,0 +1,32 @@
+.barbg{
+    background-color: aqua;
+    /* color: rgb(88, 11, 4); */
+}
+.orange-bg{
+    background-color: #fceae8;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #FF136F;
+}
+.btnbuy{
+    
+        display: inline-block;
+        padding: 8px 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #FF136F;
+        color: #efeded;
+        text-align: center;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+      
+      
+}
+.btnbuy:hover{
+    background-color: chartreuse;
+}
