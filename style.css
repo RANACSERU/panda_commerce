@@ -52,3 +52,47 @@
 .categories img{
     width: 100px;
 }
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+.card-footer{
+    border-top: none!important;
+    background-color: white;
+}
+
+#subscribe{
+    height: 250px;
+}
+#subscribe h6{
+    color: rgb(70, 3, 13);
+}
+footer{
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+  position: absolute;
+  top: 50%; /* Set the vertical position of the controls to the center of the container */
+  transform: translateY(-50%); /* Use the "translateY" function to adjust the vertical position of the controls based on their height */
+}
+
+.carousel-control-prev {
+  left: 0; /* Set the horizontal position of the "Previous" control to the left edge of the container */
+}
+
+.carousel-control-next {
+  right: 0; /* Set the horizontal position of the "Next" control to the right edge of the container */
+}
+.carousel-container {
+    position: relative;
+    /* Set the position property of the container to "relative" so that the position of the controls can be adjusted relative to the container */
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: black!important;
+  }  
